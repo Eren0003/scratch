@@ -28,6 +28,7 @@ public class SumOfTheAbsoluteDifferenceInSortedArray {
             }
             result[i] = temp1+temp2;
         }
+        String s = "dklfajd";
         return result;
     }
 }
