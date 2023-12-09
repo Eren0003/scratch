@@ -2,10 +2,15 @@ package org.example.leetcode;
 
 public class New {
     public static void main(String[] args) {
-        String s = "128093107";
-
-        System.out.println(method(s));
-        System.out.println("mm");
+        String s = "0123456789";
+       for(int i = 0 ; i < s.length() ; i++){
+           String start = s.substring(0,i);
+           String end = "";
+           if(i < s.length()-1){
+               end = s.substring(i+1);
+           }
+           System.out.println(start+end);
+       }
     }
     static int method(String s){
         int counter = 0 ;
